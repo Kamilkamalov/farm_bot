@@ -1,0 +1,15 @@
+[Unit]
+Description=bot
+After=syslog.target
+After=network.target
+
+[Service]
+Type=Simple
+User=root
+WorkingDirectory=/home/BOTS/Farm
+ExecStart=/home/BOTS/Farm/venv/bin/python3 /home/BOTS/Farm/bot.py
+RestartSec=10
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
