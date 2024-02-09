@@ -95,9 +95,7 @@ inline_btn_hard_info = InlineKeyboardMarkup(row_width=2).add(inline_btn_bal3, in
 #inline_btn_1 = InlineKeyboardButton('Реферальная система', callback_data='button6')
 #inline_kb1 = InlineKeyboardMarkup().add(inline_btn_1)
 
-# кнопки аккаунтов
-#inline_btn_bal1 = InlineKeyboardButton(f'💰Баланс: {balance1}  💵Цена:{price1}', callback_data='button7')
-#inline_bal1 = InlineKeyboardMarkup().add(inline_btn_bal1)
+
 
 # общее меню из кнопок
 
